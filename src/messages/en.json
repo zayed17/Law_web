@@ -82,5 +82,43 @@
         "answer": "Reach out via our contact page or email, and we’ll schedule a call to understand your needs."
       }
     ]
-  }
+  },
+  "testimonials": [
+    {
+      "name": "William Smith",
+      "role": "Marketing Director, Company",
+      "message": "At our firm, we are committed to achieving justice and protecting our clients' rights. We have deep knowledge of the legal system and years of court experience.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah Johnson",
+      "role": "Operations Manager, FirmX",
+      "message": "The team provided outstanding legal support with clear communication throughout. Highly professional and responsive!",
+      "rating": 5
+    },
+    {
+      "name": "James Lee",
+      "role": "Entrepreneur",
+      "message": "Their legal services helped us overcome complex issues smoothly. I highly recommend them to anyone seeking legal advice.",
+      "rating": 5
+    },
+    {
+      "name": "Amina Rahman",
+      "role": "Legal Advisor",
+      "message": "Professional, knowledgeable, and efficient. Their legal advice saved us time and money.",
+      "rating": 5
+    },
+    {
+      "name": "Omar Saeed",
+      "role": "Business Owner",
+      "message": "We got exceptional help in structuring our business contracts. Very satisfied.",
+      "rating": 5
+    },
+    {
+      "name": "Fatima Noor",
+      "role": "HR Manager, AlHayat Group",
+      "message": "Clear legal advice and excellent follow-through. Highly dependable team.",
+      "rating": 5
+    }
+  ]
 }
