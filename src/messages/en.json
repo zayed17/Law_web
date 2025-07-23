@@ -1,0 +1,86 @@
+{
+  "terms": {
+    "section1Title": "1. User Agreement",
+    "section1Content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Most Lorem Ipsum passages have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures."
+
+    ,
+
+    "section2Title": "2. Access and Use of Site",
+    "section2Content": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures to generate Lorem Ipsum which looks reasonable. Therefore, the generated Lorem Ipsum is always free from repetition, injected humour, or non-characteristic words. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 'consectetur', from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+
+    ,
+
+    "section3Title": "3. Copyright Infringement",
+    "section3Content": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+
+    ,
+
+    "section4Title": "4. Access and Interference",
+    "section4Content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+  },
+  "contact":{
+      "addressLabel": "Address",
+      "address": "3016 Sunrise Way, Las Australia",
+      "emailLabel": "Email",
+      "email": "hello@aicubes.co",
+      "phoneLabel": "Phone",
+      "phone": "+123 456 7890"
+  },
+  "caseStudies": {
+    "items": [
+      {
+        "title": "Family Legal Battle",
+        "description": "A family’s fight to reclaim justice in a high-profile inheritance case."
+      },
+      {
+        "title": "Corporate Fraud Case",
+        "description": "Uncovering hidden assets and financial mismanagement in a major corporation."
+      },
+      {
+        "title": "Property Dispute",
+        "description": "Resolving a decade-long property ownership dispute between two parties."
+      },
+      {
+        "title": "Family Legal Battle",
+        "description": "A family’s fight to reclaim justice in a high-profile inheritance case."
+      },
+      {
+        "title": "Corporate Fraud Case",
+        "description": "Uncovering hidden assets and financial mismanagement in a major corporation."
+      },
+      {
+        "title": "Property Dispute",
+        "description": "Resolving a decade-long property ownership dispute between two parties."
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "What services does Legal M Law Office provide?",
+        "answer": "We are proud to be your trusted legal ally. With a dedicated team of experienced lawyers, we offer a wide range of services specifically designed to meet your needs. Our five main services include specialized legal consultations, personal representation, strategic litigation support, comprehensive contract drafting, and efficient dispute resolution. Whether you're facing a complex legal case or simply"
+      },
+      {
+        "question": "How can I book a consultation?",
+        "answer": "We are proud to be your trusted legal ally. With a dedicated team of experienced lawyers, we offer a wide range of services specifically designed to meet your needs."
+      },
+      {
+        "question": "How can I request document review?",
+        "answer": "Simply upload your documents through our secure portal and select the review service you require."
+      },
+      {
+        "question": "What's included in the business compliance package?",
+        "answer": "It includes contract review, policy drafting, regulatory advisory, and regular legal updates."
+      },
+      {
+        "question": "Is there a retainer option for ongoing legal support?",
+        "answer": "Yes, we offer monthly and yearly retainers depending on your organization’s needs."
+      },
+      {
+        "question": "How can I inquire about customized legal services?",
+        "answer": "Reach out via our contact page or email, and we’ll schedule a call to understand your needs."
+      }
+    ]
+  }
+}
