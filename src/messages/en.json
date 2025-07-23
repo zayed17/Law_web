@@ -120,5 +120,16 @@
       "message": "Clear legal advice and excellent follow-through. Highly dependable team.",
       "rating": 5
     }
-  ]
+  ],
+
+    "appointment": {
+      "title": "Speak to our legal experts today!",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "button": "Send Now",
+      "imageAlt": "Contact"
+    }
 }
