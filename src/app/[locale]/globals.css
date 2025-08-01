@@ -15,6 +15,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-josefin-sans: 'Josefin Sans', sans-serif;
 
 }
 input:-webkit-autofill {
@@ -59,4 +60,21 @@ body {
 html[dir="rtl"] {
   direction: rtl;
   text-align: right;
+}
+
+
+@keyframes leftRightMotion {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.left-right-motion {
+  animation: leftRightMotion 3s ease-in-out infinite;
 }

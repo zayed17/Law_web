@@ -145,5 +145,17 @@
       "forgotPassword": "Forgot Password?",
       "haveAccount": "Already have an account?",
       "loginLink": "Login"
+    },
+    "whyChooseUs": {
+      "sectionTitle": "Why Choose Us",
+      "heading": "We are proud to have a team of experienced and specialized lawyers who provide expert guidance across a wide range of legal areas",
+      "paragraph": "Whether you need help resolving a legal dispute, drafting important contracts, or navigating the complexities of the law, our experienced lawyers are here to provide the guidance and support you need.",
+      "points": [
+        "01 . Legacy of successful results",
+        "02 . Consistent results, reliable experience",
+        "03 . A record that speaks for itself",
+        "04 . Proven success in every case we handle",
+        "05 . Documented history of legal excellence"
+      ]
     }
 }
