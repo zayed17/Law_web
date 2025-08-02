@@ -1,30 +1,24 @@
 {
   "terms": {
     "section1Title": "1. User Agreement",
-    "section1Content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Most Lorem Ipsum passages have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures."
-
-    ,
+    "section1Content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Most Lorem Ipsum passages have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures.",
 
     "section2Title": "2. Access and Use of Site",
-    "section2Content": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures to generate Lorem Ipsum which looks reasonable. Therefore, the generated Lorem Ipsum is always free from repetition, injected humour, or non-characteristic words. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 'consectetur', from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
-
-    ,
+    "section2Content": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures to generate Lorem Ipsum which looks reasonable. Therefore, the generated Lorem Ipsum is always free from repetition, injected humour, or non-characteristic words. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 'consectetur', from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
 
     "section3Title": "3. Copyright Infringement",
-    "section3Content": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
-
-    ,
+    "section3Content": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
 
     "section4Title": "4. Access and Interference",
     "section4Content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
   },
-  "contact":{
-      "addressLabel": "Address",
-      "address": "3016 Sunrise Way, Las Australia",
-      "emailLabel": "Email",
-      "email": "hello@aicubes.co",
-      "phoneLabel": "Phone",
-      "phone": "+123 456 7890"
+  "contact": {
+    "addressLabel": "Address",
+    "address": "3016 Sunrise Way, Las Australia",
+    "emailLabel": "Email",
+    "email": "hello@aicubes.co",
+    "phoneLabel": "Phone",
+    "phone": "+123 456 7890"
   },
   "caseStudies": {
     "items": [
@@ -122,40 +116,97 @@
     }
   ],
 
-    "appointment": {
-      "title": "Speak to our legal experts today!",
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone Number",
-      "subject": "Subject",
-      "message": "Your Message",
-      "button": "Send Now",
-      "imageAlt": "Contact"
-    },
-    "account": {
-      "registerTitle": "Create a New Account",
-      "loginTitle": "Login to Your Account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "confirmPassword": "Confirm Password",
-      "login": "Login",
-      "register":"Register Now",
-      "rememberMe": "Keep me logged in",
-      "forgotPassword": "Forgot Password?",
-      "haveAccount": "Already have an account?",
-      "loginLink": "Login"
-    },
-    "whyChooseUs": {
-      "sectionTitle": "Why Choose Us",
-      "heading": "We are proud to have a team of experienced and specialized lawyers who provide expert guidance across a wide range of legal areas",
-      "paragraph": "Whether you need help resolving a legal dispute, drafting important contracts, or navigating the complexities of the law, our experienced lawyers are here to provide the guidance and support you need.",
-      "points": [
-        "01 . Legacy of successful results",
-        "02 . Consistent results, reliable experience",
-        "03 . A record that speaks for itself",
-        "04 . Proven success in every case we handle",
-        "05 . Documented history of legal excellence"
-      ]
+  "appointment": {
+    "title": "Speak to our legal experts today!",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "subject": "Subject",
+    "message": "Your Message",
+    "button": "Send Now",
+    "imageAlt": "Contact"
+  },
+  "account": {
+    "registerTitle": "Create a New Account",
+    "loginTitle": "Login to Your Account",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "login": "Login",
+    "register": "Register Now",
+    "rememberMe": "Keep me logged in",
+    "forgotPassword": "Forgot Password?",
+    "haveAccount": "Already have an account?",
+    "loginLink": "Login"
+  },
+  "whyChooseUs": {
+    "sectionTitle": "Why Choose Us",
+    "heading": "We are proud to have a team of experienced and specialized lawyers who provide expert guidance across a wide range of legal areas",
+    "paragraph": "Whether you need help resolving a legal dispute, drafting important contracts, or navigating the complexities of the law, our experienced lawyers are here to provide the guidance and support you need.",
+    "points": [
+      "01 . Legacy of successful results",
+      "02 . Consistent results, reliable experience",
+      "03 . A record that speaks for itself",
+      "04 . Proven success in every case we handle",
+      "05 . Documented history of legal excellence"
+    ]
+  },
+  "services": {
+    "title": "All Services",
+    "nav_label": "Our services navigation",
+    "image_alt": "Legal services illustration",
+    "items": {
+      "healthcare_policy": "Healthcare Policy",
+      "personal_injury": "Personal Injury Law",
+      "commercial_law": "Commercial Law",
+      "criminal_law": "Criminal Law",
+      "artificial_intelligence": "Artificial Intelligence",
+      "corporate_governance": "Corporate Governance"
     }
+  },
+  "commercial_law": {
+    "title": "Commercial Law",
+    "description_1": "Commercial law is a broad field of law that governs the formation, operation, and regulation of companies and corporations. It includes a wide range of legal issues, including business formation, contracts, mergers and acquisitions, corporate governance, financing, intellectual property, and litigation. Companies must be familiar with the requirements and legal regulations that apply to their specific industry and ensure compliance with all applicable laws.",
+    "description_2": "At Makkah, we are committed to supporting our clients' rights and providing comprehensive legal support across a wide range of legal areas through our experienced strategic partners.",
+    "features_title": "Service Benefits",
+    "features": {
+      "legal_expertise": "Legal Expertise and Guidance",
+      "business_solutions": "Specialized Business Solutions",
+      "cost_effective": "Cost-Effective Legal Solutions",
+      "international_trade": "International Commercial Law",
+      "quality_standards": "Quality Standards Compliance",
+      "corporate_compliance": "Corporate Regulatory Compliance",
+      "permits_licenses": "Permits and Licenses",
+      "corporate_representation": "Corporate Representation",
+      "nonprofit_companies": "Non-Profit Organizations",
+      "corporate_social_responsibility": "Corporate Social Responsibility",
+      "healthcare_policy": "Healthcare Policy",
+      "personal_injury_law": "Personal Injury Law"
+    },
+    "related_services": "Relations",
+    "services": {
+      "criminal_law": "قانون الأسرة",
+      "criminal_law_en": "Criminal Law",
+      "commercial_law": "Business Law",
+      "commercial_law_en": "Commercial Law",
+      "personal_injury_law": "Lawyer",
+      "personal_injury_law_en": "Personal Injury Law"
+    },
+    "need_help": "Need Help?",
+    "contact": {
+      "phone": "Phone:",
+      "address": "Address:",
+      "email": "Email:"
+    },
+    "image_alt": "Commercial law services illustration"
+  },
+  "service_benefits": {
+    "title": "Our Service Benefits",
+    "description_1": "At our office, we are committed to supporting justice and protecting our clients' rights. We work with a comprehensive legal system, providing our clients with strategic consultation and years of experience in the court, offering personalized consultation across a wide range of legal areas.",
+    "description_2": "Whether you are facing a criminal charge, involved in a complex dispute, or seeking guidance on commercial or family matters, we stand by your side with integrity and professionalism. Our mission is to ensure that every case receives fair treatment.",
+    "values_title": "Our Values",
+    "values_description": "Understanding the legal requirements and regulations that apply to your company is essential to ensure the success and protection of your interests. A commercial lawyer consultation can provide you with the guidance and expertise that can make the difference in reducing legal risks.",
+    "image_alt": "Legal consultation and services illustration"
+  }
 }
