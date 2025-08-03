@@ -20,7 +20,6 @@ const WhyChooseUs = () => {
         </h1>
 
         <div className="flex flex-col-reverse md:flex-row gap-8 mt-8 ">
-          {/* Text Section */}
 
           <div className="md:w-[50%] space-y-6">
 

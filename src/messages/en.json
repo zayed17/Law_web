@@ -201,6 +201,7 @@
     },
     "image_alt": "Commercial law services illustration"
   },
+
   "service_benefits": {
     "title": "Our Service Benefits",
     "description_1": "At our office, we are committed to supporting justice and protecting our clients' rights. We work with a comprehensive legal system, providing our clients with strategic consultation and years of experience in the court, offering personalized consultation across a wide range of legal areas.",
@@ -320,6 +321,55 @@
       "feature1": "Expert legal representation",
       "feature2": "Comprehensive legal solutions",
       "feature3": "Defending your freedom"
+    },
+  "caseDetails": {
+    "title": "Lords of Law",
+    "description1": "We offer a wide range of services tailored specifically to meet your needs. Our five main services include specialized legal consultation, personal representation, strategic support in litigation, comprehensive contract drafting, and efficient dispute resolution. Whether you are facing a complex legal case or simply need guidance on a matter, our team is here to provide the support and expertise you need to achieve your goals. With Law Agency M for Legal Advocacy and Services, you can rest assured that your legal affairs are in trusted hands.",
+    "description2": "We offer a wide range of services tailored specifically to meet your needs. Our five main services include specialized legal consultation, personal representation, strategic support in litigation, comprehensive contract drafting, and efficient dispute resolution. Whether you are facing a complex legal case or simply need guidance on a matter, our team is here to provide the support and expertise you need to achieve your goals. With Law Agency M for Legal Advocacy and Services, you can rest assured that your legal affairs are in trusted hands.",
+    "overviewTitle": "Overview and Challenge",
+    "overviewDescription": "Cravath partner David J. Kappos and Qualcomm's Chief Economist Dr. Kirti Gupta co-authored an article titled \"Smartphone Standard-Essential Patents Don't Drive Litigation\", which was published on Bloomberg Law on December 14, 2022. The article examines patent litigation data to challenge the narrative surrounding the so-called \"patent wars,\" specifically the idea that standard-essential patents for smartphones are the root cause of the problem.",
+    "imageAlt": "Case Study Image",
+    "caseImageAlt": "Case Image"
+  },
+  "caseInformation": {
+    "title": "Case Information",
+    "lawyer": "Lawyer : Alexander Joseph",
+    "clientName": "Client Name : William Damian",
+    "caseName": "Case Name : Veritas Legal Solutions",
+    "category": "Category : Commercial Law",
+    "website": "Website : www.aicubes.co"
+  },
+  "services": {
+    "title": "All Services",
+    "healthcarePolicy": "Healthcare Policy",
+    "personalInjuryLaw": "Personal Injury Law",
+    "commercialLaw": "Commercial Law",
+    "criminalLaw": "Criminal Law",
+    "artificialIntelligence": "Artificial Intelligence",
+    "corporateGovernance": "Corporate Governance"
+  },
+  "helpBox": {
+    "title": "Need Help?",
+    "phone": {
+      "label": "Phone:",
+      "number": "+123 456 7890"
+    },
+    "address": {
+      "label": "Address:",
+      "location": "3016 Sunrise Road, Las, Australia"
+    },
+    "email": {
+      "label": "Email:",
+      "address": "hello@aicubes.co"
     }
+  },
+   "allservices": {
+    "item1": "Healthcare Policy",
+    "item2": "Personal Injury Law",
+    "item3": "Commercial Law",
+    "item4": "Criminal Law",
+    "item5": "Artificial Intelligence",
+    "item6": "Corporate Governance"
   }
+}
 }
