@@ -42,7 +42,7 @@ export default function LawDetails() {
   };
 
   return (
-    <div className="w-full pb-10  bg-gray-50 font-serif">
+    <div className="w-full pb-10  bg-gray-50 font-josefin-sans">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Main Content */}
@@ -54,10 +54,10 @@ export default function LawDetails() {
               </h1>
 
               <div className="prose prose-lg text-gray-700 max-w-[60rem] mx-auto pb-10">
-                <p className="leading-relaxed">
+                <p className="leading-relaxed font-josefin-sans">
                   {t("commercial_law.description_1")}
                 </p>
-                <p className="leading-relaxed">
+                <p className="leading-relaxed font-josefin-sans">
                   {t("commercial_law.description_2")}
                 </p>
               </div>

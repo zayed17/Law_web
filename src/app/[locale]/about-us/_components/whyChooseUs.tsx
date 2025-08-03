@@ -19,7 +19,7 @@ export default function WhyChooseUs() {
       <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
         {/* Section Header */}
         <div className="text-start mb-8 md:mb-12">
-          <p className="text-amber-600 font-medium text-sm md:text-base mb-4 tracking-wide ">
+          <p className="text-amber-600 font-josefin-sans font-medium text-sm md:text-base mb-4 tracking-wide ">
             {t("sectionTitle")}
           </p>
           <h2
@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
           {/* Right Column - Content */}
           <div className="order-1 lg:order-2 space-y-6 md:space-y-8">
             {/* Description Text */}
-            <p className="text-gray-700 text-base md:text-lg font-serif leading-relaxed">{t("description")}</p>
+            <p className="text-gray-700 text-base md:text-lg font-josefin-sans leading-relaxed">{t("description")}</p>
 
             {/* Features List */}
             <div className="space-y-4 md:space-y-5">
@@ -59,12 +59,12 @@ export default function WhyChooseUs() {
                   className="flex items-center gap-4 p-3 bg-[#efedea] rounded-full shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-200"
                 >
                   <div className="flex-shrink-0">
-                    <span className="inline-flex items-center justify-center w-8 h-8 md:w-10 md:h-10  text-[#4b2524] rounded-full text-sm md:text-base font-semibold">
+                    <span className="font-josefin-sans inline-flex items-center justify-center w-8 h-8 md:w-10 md:h-10  text-[#4b2524] rounded-full text-sm md:text-base font-semibold">
                       {feature.number}
                     </span>
                   </div>
                   <div className="flex-1">
-                    <p className="text-text-[#4b2524] font-semibold  text-sm md:text-base leading-relaxed">
+                    <p className="text-text-[#4b2524] font-semibold font-josefin-sans  text-sm md:text-base leading-relaxed">
                       {t(`features.${feature.key}`)}
                     </p>
                   </div>

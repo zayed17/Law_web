@@ -34,11 +34,11 @@ export default function ServiceBenefitsSection() {
             </header>
 
             <div className="space-y-4 text-gray-700">
-              <p className="text-base md:text-lg leading-relaxed">
+              <p className="text-base md:text-lg leading-relaxed font-josefin-sans">
                 {t("service_benefits.description_1")}
               </p>
               
-              <p className="text-base md:text-lg leading-relaxed">
+              <p className="text-base md:text-lg leading-relaxed font-josefin-sans">
                 {t("service_benefits.description_2")}
               </p>
             </div>
@@ -48,13 +48,13 @@ export default function ServiceBenefitsSection() {
         {/* Values Section */}
         <div className="bg-gray-50 rounded-lg p-6 md:p-8 lg:p-10">
           <header className="mb-6">
-            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold ">
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold font-josefin-sans">
               {t("service_benefits.values_title")}
             </h3>
           </header>
           
           <div className="prose prose-lg max-w-none">
-            <p className="text-base md:text-lg leading-relaxed m-0">
+            <p className="text-base md:text-lg leading-relaxed m-0 font-josefin-sans">
               {t("service_benefits.values_description")}
             </p>
           </div>

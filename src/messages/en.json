@@ -306,5 +306,20 @@
       "authorName": "Emily Rodriguez",
       "authorTitle": "Marketing Director"
     }
+  },
+  "supportiveLawyers": {
+    "sectionTitle": "Supportive lawyers for",
+    "mainHeading": "Supportive lawyers for",
+    "description": "In our office, we are committed to supporting justice and protecting our clients' rights. With a deep understanding of the legal system and years of courtroom experience, our lawyers provide personalized strategic counsel across a wide range of legal areas",
+    "imageAlt": "Professional legal consultation and support",
+    "circularText": "Your Best Legal • Your Best Legal • ",
+    "statisticNumber": "50+",
+    "statisticLabel": "Expert legal representation",
+    "learnMore": "Learn More",
+    "features": {
+      "feature1": "Expert legal representation",
+      "feature2": "Comprehensive legal solutions",
+      "feature3": "Defending your freedom"
+    }
   }
 }

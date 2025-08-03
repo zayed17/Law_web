@@ -61,7 +61,7 @@ export default function ServicesSection() {
                       aria-describedby={`${service.key}-description`}
                     >
                       <span 
-                        className="text-base  font-medium  flex-1"
+                        className="text-base  font-medium  font-josefin-sans flex-1"
                         id={`${service.key}-description`}
                       >
                         {t(`services.items.${service.key}`)}

@@ -1,97 +1,119 @@
 "use client"
 
 import { useTranslations } from "next-intl"
-import { Check, Scale } from "lucide-react"
+import Image from "next/image"
+import { Scale, Check } from "lucide-react"
 
-export default function LawyerSection() {
-  const t = useTranslations()
+export default function SupportiveLawyers() {
+  const t = useTranslations("supportiveLawyers")
+
+  const features = [
+    { key: "feature1", icon: Check },
+    { key: "feature2", icon: Check },
+    { key: "feature3", icon: Check },
+  ]
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50 relative overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute left-0 top-0 w-full h-full">
-          {Array.from({ length: 50 }).map((_, i) => (
-            <div
-              key={i}
-              className="absolute w-px bg-gray-400"
-              style={{
-                left: `${i * 2}%`,
-                height: "100%",
-                transform: `translateX(${Math.sin(i * 0.5) * 20}px)`,
-              }}
-            />
-          ))}
-        </div>
-      </div>
-
-      <div className="container mx-auto px-4 py-12 lg:py-20 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-          {/* Left Side - Image and Stats */}
-          <div className="relative">
-            {/* Main Image Placeholder */}
-            <div className="relative bg-gray-300 rounded-lg overflow-hidden aspect-[7/9] max-w-md mx-auto lg:mx-0">
-              <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-4xl font-light">
-                700 × 900
+    <section className="w-full py-12 md:py-16 lg:py-20 bg-white" aria-labelledby="supportive-lawyers-heading">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 xl:gap-16 items-center">
+          {/* Left Column - Image with Overlays */}
+          <div className="relative order-2 lg:order-1">
+            {/* Background Pattern */}
+            <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-gray-200 rounded-2xl overflow-hidden">
+              <div className="absolute inset-0 opacity-30">
+                <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                  <defs>
+                    <pattern id="lines" patternUnits="userSpaceOnUse" width="2" height="100">
+                      <line x1="1" y1="0" x2="1" y2="100" stroke="#d1d5db" strokeWidth="1" />
+                    </pattern>
+                  </defs>
+                  <rect width="100" height="100" fill="url(#lines)" />
+                </svg>
               </div>
+            </div>
 
-              {/* Circular Logo */}
-              <div className="absolute top-8 left-1/2 transform -translate-x-1/2 w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-2">
-                    <Scale className="w-8 h-8 text-amber-700" />
+            {/* Main Image */}
+            <div className="relative aspect-[700/900] w-full bg-gray-200 rounded-2xl overflow-hidden">
+              <Image
+                src="/placeholder.svg?height=900&width=700"
+                alt={t("imageAlt")}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
+                priority
+              />
+
+              {/* Circular Logo Badge */}
+              <div className="absolute top-8 right-8 md:top-12 md:right-12">
+                <div className="relative w-24 h-24 md:w-32 md:h-32 bg-white rounded-full shadow-lg flex items-center justify-center">
+                  {/* Circular Text */}
+                  <div className="absolute inset-0">
+                    <svg className="w-full h-full" viewBox="0 0 100 100">
+                      <defs>
+                        <path id="circle" d="M 50, 50 m -35, 0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" />
+                      </defs>
+                      <text className="text-[8px] md:text-[6px] fill-gray-700 font-medium">
+                        <textPath href="#circle" startOffset="0%">
+                          {t("circularText")}
+                        </textPath>
+                      </text>
+                    </svg>
                   </div>
-                  <div className="text-xs font-semibold text-gray-800 leading-tight">
-                    <div>Lawyer</div>
-                    <div>For</div>
-                    <div>You</div>
+                  {/* Center Icon */}
+                  <div className="w-8 h-8 md:w-10 md:h-10 bg-amber-100 rounded-full flex items-center justify-center">
+                    <Scale className="w-4 h-4 md:w-5 md:h-5 text-amber-700" />
                   </div>
                 </div>
               </div>
 
-              {/* Stats Card */}
-              <div className="absolute bottom-8 left-8 bg-gray-900 text-white p-6 rounded-lg shadow-xl max-w-xs">
-                <div className="text-4xl font-bold mb-2">50+</div>
-                <div className="text-sm opacity-90">{t("stats.expertRepresentation")}</div>
+              {/* Statistics Overlay */}
+              <div className="absolute bottom-8 left-8 md:bottom-12 md:left-12">
+                <div className="bg-gray-900 text-white rounded-2xl p-6 md:p-8 shadow-xl">
+                  <div className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2">{t("statisticNumber")}</div>
+                  <div className="text-sm md:text-base text-gray-300">{t("statisticLabel")}</div>
+                </div>
               </div>
             </div>
           </div>
 
-          {/* Right Side - Content */}
-          <div className="space-y-6 lg:space-y-8">
-            {/* Subtitle */}
-            <div className="text-amber-600 font-medium text-lg lg:text-xl">{t("subtitle")}</div>
-
-            {/* Main Heading */}
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
-              {t("mainHeading")}
-            </h1>
-
-            {/* Description */}
-            <p className="text-gray-700 text-lg lg:text-xl leading-relaxed max-w-2xl">{t("description")}</p>
+          {/* Right Column - Content */}
+          <div className="order-1 lg:order-2 space-y-6 md:space-y-8">
+            {/* Header */}
+            <div>
+              <p className="text-amber-600 font-medium text-sm md:text-base font-josefin-sans mb-4 tracking-wide">{t("sectionTitle")}</p>
+              <h2
+                id="supportive-lawyers-heading"
+                className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6"
+              >
+                {t("mainHeading")}
+              </h2>
+              <p className="text-base md:text-lg font-josefin-sans leading-relaxed">{t("description")}</p>
+            </div>
 
             {/* Features List */}
-            <div className="space-y-4">
-              {[
-                t("features.expertRepresentation"),
-                t("features.comprehensiveSolutions"),
-                t("features.defendingFreedom"),
-              ].map((feature, index) => (
-                <div key={index} className="flex items-center gap-3">
-                  <div className="w-6 h-6 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Check className="w-4 h-4 text-amber-700" />
+            <div className="space-y-4 md:space-y-5 p-5 bg-[#f1f0ed] rounded-lg">
+              {features.map((feature, index) => {
+                const IconComponent = feature.icon
+                return (
+                  <div key={feature.key} className="flex items-center gap-4">
+                    <div className="flex-shrink-0">
+                      <div className="w-6 h-6 md:w-7 md:h-7 bg-amber-100 rounded-full flex items-center justify-center">
+                        <IconComponent className="w-4 h-4 md:w-5 md:h-5 text-amber-700" />
+                      </div>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-gray-800 font-medium text-base md:text-lg">{t(`features.${feature.key}`)}</p>
+                    </div>
                   </div>
-                  <span className="text-gray-800 text-lg font-medium">{feature}</span>
-                </div>
-              ))}
+                )
+              })}
             </div>
 
             {/* CTA Button */}
             <div className="pt-4">
-              <button
-                className="bg-amber-900 hover:bg-amber-800 text-white px-8 py-3 text-lg font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
-              >
-                {t("cta.learnMore")}
+              <button className="bg-amber-900 hover:bg-amber-800 text-white font-semibold px-8 py-4 rounded-xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-amber-900 focus:ring-offset-2">
+                {t("learnMore")}
               </button>
             </div>
           </div>
