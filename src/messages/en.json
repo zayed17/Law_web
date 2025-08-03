@@ -208,5 +208,103 @@
     "values_title": "Our Values",
     "values_description": "Understanding the legal requirements and regulations that apply to your company is essential to ensure the success and protection of your interests. A commercial lawyer consultation can provide you with the guidance and expertise that can make the difference in reducing legal risks.",
     "image_alt": "Legal consultation and services illustration"
+  },
+  "subtitle": "Supportive lawyers for",
+  "mainHeading": "Supportive lawyers for",
+  "description": "In our office, we are committed to supporting justice and protecting our clients' rights. With a deep understanding of the legal system and years of courtroom experience, our lawyers provide personalized strategic counsel across a wide range of legal areas",
+  "features": {
+    "expertRepresentation": "Expert legal representation",
+    "comprehensiveSolutions": "Comprehensive legal solutions",
+    "defendingFreedom": "Defending your freedom"
+  },
+  "stats": {
+    "expertRepresentation": "Expert legal representation"
+  },
+  "cta": {
+    "learnMore": "Learn More"
+  },
+  "whyChooseUs2": {
+    "sectionTitle": "Why Choose Us",
+    "mainHeading": "We are proud to have a team of experienced and specialized lawyers who provide expert guidance across a wide range of legal areas",
+    "description": "Whether you need help resolving a legal dispute, drafting important contracts, or navigating the complexities of the law, our experienced lawyers are here to provide the guidance and support you need",
+    "imageAlt": "Professional legal team providing expert guidance",
+    "features": {
+      "feature1": "Legacy of successful results",
+      "feature2": "Consistent results, reliable experience",
+      "feature3": "A record that speaks for itself",
+      "feature4": "Proven success in every case we handle",
+      "feature5": "Documented history of legal excellence"
+    }
+  },
+  "ourAttorneys": {
+    "sectionTitle": "Our Attorneys",
+    "ceo": {
+      "title": "CEO & Founder",
+      "name": "Benjamin Thomas"
+    },
+    "criminal": {
+      "title": "Criminal Lawyer",
+      "name": "Oliver Samantha"
+    },
+    "chief": {
+      "title": "Chief Justice",
+      "name": "William Thomas"
+    },
+    "assistant": {
+      "title": "Assistant",
+      "name": "Amelia Smith"
+    }
+  },
+  "practiceArea": {
+    "sectionTitle": "Practice Area",
+    "learnMore": "Learn More",
+    "criminal": {
+      "title": "Criminal Law",
+      "description": "Criminal Law"
+    },
+    "family": {
+      "title": "Family Law",
+      "description": "We are committed to supporting and protecting our clients' rights"
+    },
+    "realEstate": {
+      "title": "Real Estate Law",
+      "description": "Real Estate Law"
+    },
+    "business": {
+      "title": "Business Law",
+      "description": "Business Law"
+    },
+    "corporate": {
+      "title": "Corporate Law",
+      "description": "Corporate Law"
+    },
+    "immigration": {
+      "title": "Immigration Law",
+      "description": "Immigration Law"
+    }
+  },
+  "testimonials2": {
+    "sectionTitle": "Our Testimonials",
+    "mainHeading": "Success starts with",
+    "testimonial1": {
+      "text": "Thanks to Legal M lawyers, my business contracts are now clear, enforceable and protect my interests. Their attention to detail and professionalism exceeded my expectations. I will definitely use their services for all my future legal needs.",
+      "authorName": "Chief Justice",
+      "authorTitle": "Chief Justice"
+    },
+    "testimonial2": {
+      "text": "The legal team provided exceptional guidance throughout my case. Their expertise in criminal law and dedication to achieving the best outcome was remarkable. I couldn't have asked for better representation.",
+      "authorName": "Sarah Johnson",
+      "authorTitle": "Business Owner"
+    },
+    "testimonial3": {
+      "text": "Outstanding service in real estate law. They handled my property transactions with utmost professionalism and ensured all legal aspects were covered. Highly recommend their services to anyone in need of legal expertise.",
+      "authorName": "Michael Chen",
+      "authorTitle": "Real Estate Investor"
+    },
+    "testimonial4": {
+      "text": "Their family law expertise helped me navigate through a difficult divorce process. The lawyers were compassionate, understanding, and fought for my rights every step of the way. Truly grateful for their support.",
+      "authorName": "Emily Rodriguez",
+      "authorTitle": "Marketing Director"
+    }
   }
 }

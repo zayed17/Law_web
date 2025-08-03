@@ -4,7 +4,7 @@ import rightImg from "../../public/images/heroSideImage2.png";
 import centerImg from "../../public/images/heroMainImage.png";
 import dummyImg from "../../public/images/dummyImg.png";
 import LawImage from "../../public/images/news-shape.png";
-import TwoSide from '../../public/images/left-side.png';
+import TwoSide from "../../public/images/left-side.png";
 import heroBg from "../../public/images/heroBg.png";
 import HeroPersonImg from "../../public/images/HeroPersonImg.png";
 import AboutShape from "../../public/images/about-shape.png";
@@ -17,26 +17,26 @@ import criminalLawImg from "../../public/images/criminal-law.png";
 import injuryLawImg from "../../public/images/Injury-law.jpg";
 import educationLawImg from "../../public/images/education-law.png";
 import businessLawImg from "../../public/images/business-law.png";
+import lawShape from "../../public/images/law-shape.png";
 export {
-    footerBg,
-    leftImg,
-    rightImg,
-    centerImg,
-    dummyImg,
-    LawImage,
-    TwoSide,
-    heroBg,
-    HeroPersonImg,
-    AboutShape,
-    quoteLeft,
-    quoteRight,
-    aboutUsImg,
-    advocateImg,
-    appointmentImg,
-    criminalLawImg,
-    injuryLawImg,
-    educationLawImg,
-    businessLawImg
-
-
-}
+  footerBg,
+  leftImg,
+  rightImg,
+  centerImg,
+  dummyImg,
+  LawImage,
+  TwoSide,
+  heroBg,
+  HeroPersonImg,
+  AboutShape,
+  quoteLeft,
+  quoteRight,
+  aboutUsImg,
+  advocateImg,
+  appointmentImg,
+  criminalLawImg,
+  injuryLawImg,
+  educationLawImg,
+  businessLawImg,
+  lawShape,
+};
