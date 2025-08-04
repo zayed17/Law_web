@@ -1,5 +1,5 @@
 import { dummyImg } from "@/imports/images.imports";
-import { Mail, Map, Phone } from "lucide-react";
+import { CheckCircle, Mail, Map, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -14,6 +14,13 @@ const CaseDetails = () => {
   ];
   const serviceKeys = ["item1", "item2", "item3", "item4", "item5", "item6"];
 
+  const points = [
+    "Achieving diversity in property ownership",
+    "Many conflicting opinions about the vision document",
+    "Delivering results to the workshop participants",
+    "Although all business owners need to understand the industry",
+    "Providing professional and certified services for your company",
+  ];
   return (
     <section>
       <div className="flex flex-col lg:flex-row gap-8">
@@ -54,6 +61,17 @@ const CaseDetails = () => {
             <p className="font-josefin-sans leading-relaxed font-semibold  text-gray-700">
               {t("caseDetails.overviewDescription")}
             </p>
+          </div>
+          <div className="space-y-4 ">
+            {points.map((text, i) => (
+              <div
+                key={i}
+                className="flex items-start gap-3 text-base sm:text-lg "
+              >
+                <CheckCircle className="text-black min-w-5 min-h-5 mt-1" />
+                <p >{text}</p>
+              </div>
+            ))}
           </div>
         </div>
 

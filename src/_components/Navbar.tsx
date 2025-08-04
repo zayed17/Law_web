@@ -6,8 +6,9 @@ import Link from "next/link";
 
 interface NavigationItem {
   name: string;
+  url: string;
   hasDropdown: boolean;
-  items?: string[];
+  items?: { name: string; url: string; }[];
 }
 
 export default function Navbar() {
@@ -59,45 +60,55 @@ export default function Navbar() {
   }, [mobileMenuOpen]);
 
   const navigationItems: NavigationItem[] = [
-    { name: "Home", hasDropdown: false },
+    { name: "Home", url: "/", hasDropdown: false },
     {
       name: "Pages",
+      url: "#",
       hasDropdown: true,
       items: [
-        "About Us",
-        "Testimonials",
-        "Appointment",
-        "Pricing",
-        "Gallery",
-        "Attorneys",
-        "FAQ",
-        "My Account",
-        "Privacy Policy",
-        "Terms and Conditions",
+        { name: "About Us", url: "/about" },
+        { name: "Testimonials", url: "/testimonials" },
+        { name: "Appointment", url: "/appointment" },
+        { name: "Pricing", url: "/pricing" },
+        { name: "Gallery", url: "/gallery" },
+        { name: "Attorneys", url: "/attorneys" },
+        { name: "FAQ", url: "/faq" },
+        { name: "My Account", url: "/account" },
+        { name: "Privacy Policy", url: "/privacy" },
+        { name: "Terms and Conditions", url: "/terms" },
       ],
     },
     {
       name: "Practices",
+      url: "#",
       hasDropdown: true,
-      items: ["Practice", "Practice Details"],
+      items: [
+        { name: "Practice", url: "/practice" },
+        { name: "Practice Details", url: "/practice/practice-details" },
+      ],
     },
     {
       name: "Case Studies",
+      url: "#",
       hasDropdown: true,
-      items: ["Case Study", "Case Study Details"],
+      items: [
+        { name: "Case Study", url: "/case-study" },
+        { name: "Case Study Details", url: "/case-study/case-study-details" },
+      ],
     },
     {
       name: "Blog",
+      url: "#",
       hasDropdown: true,
       items: [
-        "Recent Posts",
-        "Legal News",
-        "Case Updates",
-        "Legal Tips",
-        "Industry Insights",
+        { name: "Recent Posts", url: "/blog/recent" },
+        { name: "Legal News", url: "/blog/news" },
+        { name: "Case Updates", url: "/blog/updates" },
+        { name: "Legal Tips", url: "/blog/tips" },
+        { name: "Industry Insights", url: "/blog/insights" },
       ],
     },
-    { name: "Contact", hasDropdown: false },
+    { name: "Contact", url: "/contact-us", hasDropdown: false },
   ];
 
   return (
@@ -130,7 +141,7 @@ export default function Navbar() {
                 onMouseLeave={() => setActiveDropdown(null)}
               >
                 <Link
-                  href={item.hasDropdown ? "#" : `/${item.name.toLowerCase()}`}
+                  href={item.url}
                   className="flex items-center gap-1 py-2 transition-colors duration-200 hover:text-yellow-400"
                 >
                   {item.name !== "Home" && item.name !== "Contact" && (
@@ -149,19 +160,16 @@ export default function Navbar() {
                     }`}
                   >
                     <div className="py-2">
-                      {item.items?.map((subItem, subIndex) => {
-                        const slug = subItem.toLowerCase().replace(/\s+/g, "-");
-                        return (
-                          <Link
-                            key={subIndex}
-                            href={`/${slug}`}
-                            className="block px-4 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-DarkGreen transition-colors duration-150 border-b border-gray-100 last:border-b-0"
-                            onClick={() => setActiveDropdown(null)}
-                          >
-                            {subItem}
-                          </Link>
-                        );
-                      })}
+                      {item.items?.map((subItem, subIndex) => (
+                        <Link
+                          key={subIndex}
+                          href={subItem.url}
+                          className="block px-4 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-DarkGreen transition-colors duration-150 border-b border-gray-100 last:border-b-0"
+                          onClick={() => setActiveDropdown(null)}
+                        >
+                          {subItem.name}
+                        </Link>
+                      ))}
                     </div>
                   </div>
                 )}
@@ -262,30 +270,25 @@ export default function Navbar() {
                     {/* Mobile Dropdown */}
                     {activeDropdown === item.name && (
                       <div className="pl-6 pb-2 space-y-1">
-                        {item.items?.map((subItem, subIndex) => {
-                          const slug = subItem
-                            .toLowerCase()
-                            .replace(/\s+/g, "-");
-                          return (
-                            <Link
-                              key={subIndex}
-                              href={`/${slug}`}
-                              className="block py-2 text-gray-300 hover:text-yellow-400 transition-colors duration-150 text-sm"
-                              onClick={() => {
-                                setActiveDropdown(null);
-                                setMobileMenuOpen(false);
-                              }}
-                            >
-                              {subItem}
-                            </Link>
-                          );
-                        })}
+                        {item.items?.map((subItem, subIndex) => (
+                          <Link
+                            key={subIndex}
+                            href={subItem.url}
+                            className="block py-2 text-gray-300 hover:text-yellow-400 transition-colors duration-150 text-sm"
+                            onClick={() => {
+                              setActiveDropdown(null);
+                              setMobileMenuOpen(false);
+                            }}
+                          >
+                            {subItem.name}
+                          </Link>
+                        ))}
                       </div>
                     )}
                   </>
                 ) : (
                   <Link
-                    href={`/${item.name.toLowerCase()}`}
+                    href={item.url}
                     className="flex items-center gap-2 py-3 font-semibold"
                     onClick={() => setMobileMenuOpen(false)}
                   >
@@ -320,10 +323,6 @@ export default function Navbar() {
                   </button>
                   <button
                     className="block w-full text-left py-2 text-gray-300 hover:text-yellow-400 transition-colors duration-150 text-sm"
-                    onClick={() => {
-                      switchLanguage("ar");
-                      setShowOptions(false);
-                    }}
                   >
                     العربية (Arabic)
                   </button>
