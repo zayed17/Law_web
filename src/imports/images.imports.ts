@@ -18,6 +18,7 @@ import injuryLawImg from "../../public/images/Injury-law.jpg";
 import educationLawImg from "../../public/images/education-law.png";
 import businessLawImg from "../../public/images/business-law.png";
 import lawShape from "../../public/images/law-shape.png";
+import pricingBg from "../../public/images/pricing-shape.png";
 export {
   footerBg,
   leftImg,
@@ -39,4 +40,5 @@ export {
   educationLawImg,
   businessLawImg,
   lawShape,
+  pricingBg
 };

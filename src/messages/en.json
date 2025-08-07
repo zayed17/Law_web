@@ -374,5 +374,35 @@
     "point3": "Delivering results to the workshop participants",
     "point4": "Although all business owners need to understand the industry",
     "point5": "Providing professional and certified services for your company"
+  },
+    "pricing": {
+    "title": "Trusted Legal Support with Unwavering Commitment to Your Case",
+    "mostPopular": "Most Popular",
+    "subscribeNow": "Subscribe Now",
+    "plans": {
+      "basic": {
+        "name": "Basic Plan",
+        "period": "monthly",
+        "description": "Experienced lawyers provide a wide range of services designed specifically for your needs."
+      },
+      "standard": {
+        "name": "Standard Plan",
+        "period": "monthly",
+        "description": "Experienced lawyers provide a wide range of services designed specifically for your needs."
+      },
+      "premium": {
+        "name": "Premium Plan",
+        "period": "monthly",
+        "description": "Experienced lawyers provide a wide range of services designed specifically for your needs."
+      }
+    },
+    "features": {
+      "dangerousVehicleAccidents": "Dangerous Vehicle Accidents",
+      "truckAccidents": "Truck Accidents",
+      "majorAccidentCollisions": "Major Truck Collisions",
+      "educationalConsultations": "Educational Consultations",
+      "businessConsultations": "Business Consultations"
+    }
   }
+
 }
