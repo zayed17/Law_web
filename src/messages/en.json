@@ -375,7 +375,7 @@
     "point4": "Although all business owners need to understand the industry",
     "point5": "Providing professional and certified services for your company"
   },
-    "pricing": {
+  "pricing": {
     "title": "Trusted Legal Support with Unwavering Commitment to Your Case",
     "mostPopular": "Most Popular",
     "subscribeNow": "Subscribe Now",
@@ -403,6 +403,46 @@
       "educationalConsultations": "Educational Consultations",
       "businessConsultations": "Business Consultations"
     }
+  },
+  "chiefJustice": "Chief Justice",
+  "williamThomas": "William Thomas",
+  "criminalLawyer": "Criminal Lawyer",
+  "oliverSamanta": "Oliver Samanta",
+  "ceoFounder": "CEO & Founder",
+  "benjaminThomas": "Benjamin Thomas",
+  "assistantLawyer": "Assistant Lawyer",
+  "ameliaSmith": "Amelia Smith",
+  "corporateLawyer": "Corporate Lawyer",
+  "davidJohnson": "David Johnson",
+  "legalAdvisor": "Legal Advisor",
+  "sophiaBrown": "Sophia Brown",
+  "profile": {
+    "name": "Nathaniel Smith",
+    "role": "Chief Justice",
+    "aboutTitle": "About",
+    "aboutText": "Logical consequence of Maurice cunopia inceptus nostra rotrum morbi sagittis pulvinar, comodo curapitor maecenas fermentum magna tempus nisi olamcorper, anti octor magnis britium eu lectus eusmod plataea.",
+    "phoneLabel": "Phone",
+    "phoneValue": "+123 456 7890",
+    "addressLabel": "Address",
+    "addressValue": "3016 Sunrise Road",
+    "emailLabel": "Email",
+    "emailValue": "hello@aicubes.co",
+    "shareLabel": "Share"
+  },
+  "contact2": {
+    "title": "Send Message",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "subjectLabel": "Subject",
+    "messageLabel": "Message",
+    "submitButton": "Send Now",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "Enter your email",
+    "phonePlaceholder": "Enter your phone number",
+    "subjectPlaceholder": "Enter message subject",
+    "messagePlaceholder": "Write your message here...",
+    "aboutAt":"He hoped for speedy justice",
+    "aboutDecAt":"Michel Phelps has served as Chief Justice of the Supreme Court of the fictional country Erethia since 1990. A widely respected figure in the legal community, Phelps is known for his progressive interpretations of the law and his strong commitment to supporting human rights and environmental justice. Michel Phelps has earned a reputation not only as a legal scholar but also as a forward-thinking judge who consistently places social equality at the forefront of his rulings. His tenure on Erethia’s Supreme Court has been marked by landmark decisions that reshaped the legal landscape, especially in the areas of environmental protection, civil liberties, and human rights."
   }
-
 }
